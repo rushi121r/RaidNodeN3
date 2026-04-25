@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Tisha International</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <a href="index.html"
+          ><img
+            src="assets/logo-tisha.svg"
+            alt="Tisha International logo"
+            class="logo"
+        /></a>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html">Products</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container card-grid grid-3">
+        <section class="card reveal" style="grid-column: span 1">
+          <h2>Contact Details</h2>
+          <p><strong>Phone:</strong> +91 99999 99999</p>
+          <p><strong>Email:</strong> sales@tishainternational.com</p>
+          <p><strong>Location:</strong> Ahmedabad, India</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="https://wa.me/919999999999"
+              >WhatsApp Now</a
+            >
+          </div>
+        </section>
+
+        <section class="card reveal" style="grid-column: span 2">
+          <h2>Business Inquiry Form</h2>
+          <form id="inquiry-form" class="form-grid">
+            <div>
+              <label for="name">Full Name</label>
+              <input id="name" type="text" placeholder="Your name" required />
+            </div>
+            <div>
+              <label for="company">Company Name</label>
+              <input
+                id="company"
+                type="text"
+                placeholder="Company name"
+                required
+              />
+            </div>
+            <div>
+              <label for="mobile">Phone / WhatsApp</label>
+              <input
+                id="mobile"
+                type="tel"
+                placeholder="Contact number"
+                required
+              />
+            </div>
+            <div>
+              <label for="requirement">Requirement</label>
+              <textarea
+                id="requirement"
+                placeholder="Share model preference, quantity, and timeline"
+                required
+              ></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">
+              Submit Inquiry
+            </button>
+          </form>
+          <p id="quick-response" class="notice">
+            Thank you. Our team will connect with you quickly with stock and
+            pricing details.
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">© 2002–2026 Tisha International.</div>
+    </footer>
+    <a
+      href="https://wa.me/919999999999"
+      class="whatsapp-float"
+      aria-label="Chat on WhatsApp"
+      >✆</a
+    >
+    <script src="assets/app.js"></script>
+  </body>
+</html>

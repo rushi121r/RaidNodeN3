@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products | Tisha International</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <a href="index.html"
+          ><img
+            src="assets/logo-tisha.svg"
+            alt="Tisha International logo"
+            class="logo"
+        /></a>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="products.html" class="active">Products</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <h1 class="reveal">Product Inventory for Bulk Buyers</h1>
+
+        <section class="card reveal" style="margin-bottom: 1rem">
+          <h2 style="font-size: 1.2rem">Filter Stock</h2>
+          <div class="card-grid grid-4">
+            <div>
+              <label for="ram">RAM</label>
+              <select id="ram">
+                <option>All</option>
+                <option>8 GB</option>
+                <option>16 GB</option>
+                <option>32 GB</option>
+              </select>
+            </div>
+            <div>
+              <label for="generation">Generation</label>
+              <select id="generation">
+                <option>All</option>
+                <option>8th Gen</option>
+                <option>10th Gen</option>
+                <option>12th Gen</option>
+              </select>
+            </div>
+            <div>
+              <label for="price">Price Range</label>
+              <select id="price">
+                <option>All</option>
+                <option>₹18,000–₹25,000</option>
+                <option>₹25,000–₹35,000</option>
+                <option>₹35,000+</option>
+              </select>
+            </div>
+            <div>
+              <label for="grade">Grade</label>
+              <select id="grade">
+                <option>All</option>
+                <option>A+</option>
+                <option>A</option>
+              </select>
+            </div>
+          </div>
+        </section>
+
+        <section class="card-grid grid-3">
+          <article class="card product-card reveal">
+            <div class="product-thumb">HP EliteBook Series</div>
+            <div class="product-body">
+              <h3>HP EliteBook 840 G8</h3>
+              <p>Core i5 11th Gen, 16GB RAM, 512GB SSD, 14" FHD</p>
+              <div class="product-meta">
+                <span class="badge">Grade A+</span
+                ><span class="badge">Bulk: 120 Units</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product-card reveal">
+            <div class="product-thumb">Dell Latitude Series</div>
+            <div class="product-body">
+              <h3>Dell Latitude 5420</h3>
+              <p>Core i5 11th Gen, 8GB RAM, 256GB SSD, 14" FHD</p>
+              <div class="product-meta">
+                <span class="badge">Grade A</span
+                ><span class="badge">Bulk: 200 Units</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card product-card reveal">
+            <div class="product-thumb">Lenovo ThinkPad Series</div>
+            <div class="product-body">
+              <h3>Lenovo ThinkPad T14</h3>
+              <p>Core i7 10th Gen, 16GB RAM, 512GB SSD, 14" FHD</p>
+              <div class="product-meta">
+                <span class="badge">Grade A+</span
+                ><span class="badge">Bulk: 90 Units</span>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="section" style="padding-bottom: 0">
+          <article class="card reveal">
+            <p class="kicker">Bulk Deals</p>
+            <h2 style="margin-top: 0.5rem">Wholesale Procurement Programs</h2>
+            <p>
+              Special pricing structures are available for recurring bulk
+              purchases. Share your volume requirement, grade preference, and
+              deployment timeline to receive a custom quote.
+            </p>
+            <a class="btn btn-primary" href="contact.html"
+              >Contact for Best Price</a
+            >
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">© 2002–2026 Tisha International.</div>
+    </footer>
+    <a
+      href="https://wa.me/919999999999"
+      class="whatsapp-float"
+      aria-label="Chat on WhatsApp"
+      >✆</a
+    >
+    <script src="assets/app.js"></script>
+  </body>
+</html>

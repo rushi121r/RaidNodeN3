@@ -1,0 +1,8 @@
+<svg width="320" height="80" viewBox="0 0 320 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="80" rx="12" fill="#0A1226"/>
+  <circle cx="42" cy="40" r="24" fill="#D4AF37"/>
+  <path d="M34 30H50V34H44V52H40V34H34V30Z" fill="#0A1226"/>
+  <path d="M53 52V30H57V38H65V30H69V52H65V42H57V52H53Z" fill="#0A1226"/>
+  <text x="82" y="36" fill="#D4AF37" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">TISHA</text>
+  <text x="82" y="56" fill="#F5E6B8" font-family="Inter, Arial, sans-serif" font-size="14" letter-spacing="1.4">INTERNATIONAL</text>
+</svg>
